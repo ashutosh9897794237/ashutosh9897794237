@@ -343,6 +343,8 @@ border: 1.5px solid #181717;
     margin-left: 10%;
     display: flex;
     position: relative;
+    margin-bottom: 5%;
+    text-decoration: none;
     justify-content: space-between;
 }
 .M{
