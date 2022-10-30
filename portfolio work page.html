@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<!-- saved from url=(0036)http://127.0.0.1:5500/portfolio.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./portfolio work page_files/portfolio.css">
+    <title>portfolio work page</title>
+</head>
+   <!--nav-->
+<body>
+    <div class="nav-container">
+        <div class="wrapper">
+            <nav>
+                <div class="logo">
+                    <h2>ma.</h2>
+                </div>
+                <ul class="nav-items">
+                    <li>
+                        <a href="http://127.0.0.1:5500/portfolio.html#">Work</a>
+                    </li>
+                    <li>
+                        <a href="http://127.0.0.1:5500/about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="http://127.0.0.1:5500/portfolio.html#">Playground</a>
+                    </li>
+                    <li>
+                        <a href="http://127.0.0.1:5500/portfolio.html#">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="nav-b">
+            <h1>
+                <p class="nav-c">Hello, I’m Mehmet Akif.</p>
+            </h1>
+            <h3>
+                <p class="nav-d">A senior-year design student who trying to specialize in 3D modeling &amp; texturing.</p>
+            </h3>
+        </div>
+    </div>
+
+<!--main-->
+
+    <div class="main">
+        
+        <!--section-1-->
+
+        <div class="section-1">
+            <div class="left1">
+                <h4>
+                    <li class="s1">01 / PROJECT NAME</li>
+                </h4>
+                <h4>
+                    <li class="s2">Goblin concept digital sculpture with human-like skin. Learned a lot of quick tips
+                        and look development.</li>
+                </h4>
+                <h4>
+                    <li class="s3">Sculpted in ZBrush, Retopologized and UVs done in Maya, Textured in Mari, Rendered
+                        using Arnold.</li>
+                </h4> <br><br><br><br><br>
+                <h4><a class="more" href="https://www.gettyimages.in/photos/solar-panel">
+                        <ul> More Shots From this Project</ul>
+                    </a> </h4>
+            </div>
+            <div class="right1"><img src="./portfolio work page_files/p1.svg"></div>
+            <div class="seperator1"><img src="./portfolio work page_files/seperator.svg"></div>
+        </div>
+        <br><br><br><br><br><br>
+        
+        <!--section-2-->
+
+        <div class="section-2">
+            <div class="left2">
+                <h4>
+                    <li class="s4">02 / PROJECT NAME</li>
+                </h4>
+                <h4>
+                    <li class="s5">Subsurface weight, specular roughness, diffuse maps generated with the procedure and
+                        manual techniques.</li>
+                </h4> <br><br><br><br><br><br><br><br><br>
+                <h4><a class="case" href="https://www.gettyimages.in/photos/solar-panel">see case study</a> </h4>
+            </div>
+            <div class="right2"><img src="./portfolio work page_files/solar1.svg"></div>
+            <div class="seperator2"><img src="./portfolio work page_files/seperator.svg"></div>
+        </div>
+    </div>
+    <br><br><br><br><br><br>
+     
+    <!--section-3-->
+    <div class="section-3">
+        <div class="left3">
+            <h4>
+                <li class="s6">03 / PROJECT NAME</li>
+            </h4>
+            <h4>
+                <li class="s7">Goblin concept digital sculpture with human-like skin. Learned a lot of quick tips and
+                    look development.</li>
+            </h4> <br><br><br><br><br><br><br><br><br>
+            <h4><a class="wip" href="https://www.gettyimages.in/photos/solar-panel"> Project WIP</a> </h4>
+        </div>
+        <div class="right3"><img src="./portfolio work page_files/p1.svg"></div>
+        <div class="seperator3"><img src="./portfolio work page_files/seperator.svg"></div>
+    </div>
+
+    
+    
+    <br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <!--footer-->
+
+    <div class="footer">
+        <div class="M">Mehmet Akif Karasu ⏤ 2020 </div>
+        <div class="refer">
+            <li class="art">Artstation</li>
+            <li class="lndn">Linkdin</li>
+            <li class="twr"> twitter</li>
+        </div>
+    </div>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>
