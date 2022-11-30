@@ -1,0 +1,166 @@
+.nav{
+    position: absolute;
+width: 1520px;
+height: 430px;
+left: 0px;
+top: 0px;
+
+background: #000000;
+}
+.bar{
+    position: absolute;
+list-style: none;
+font-weight: 100;
+font-size: 50px;
+line-height: 75px;
+left: 500px;
+color: #FFFFFF;
+
+}
+.n2{
+    box-sizing: border-box;
+
+position: absolute;
+width: 1372px;
+height: 72px;
+left: 146px;
+top: 200px;
+
+border: 1px solid #FFFFFF;
+    position: absolute;
+width: 1200px;
+height: 40px;
+left: 146px;
+top: 200px;
+
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+}
+.nn2{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 1372px;
+    height: 72px;
+    left: 146px;
+    top: 0px;
+    
+    border: 1px solid #FFFFFF;
+        position: absolute;
+    width: 1200px;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+    
+        font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+}
+.n3{
+    position: absolute;
+width: 1372px;
+height: 29px;
+left: 150px;
+top: 430px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+box-sizing: border-box;
+
+position: absolute;
+width: 1200px;
+height: 40px;
+left: 146px;
+top: 250px;
+
+border: 1px solid #FFFFFF;
+
+}
+.nn3{
+    position: absolute;
+    width: 1372px;
+    height: 72px;
+    left: 0px;
+    top: 0px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    
+    
+
+    box-sizing: border-box;
+    
+    position: absolute;
+    width: 1200px;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+    
+    border: 1px solid #FFFFFF;
+    
+    }
+.n4{
+    position: absolute;
+width: 93.46px;
+height: 33px;
+left: 224.46px;
+top: 330px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+
+color: #000000;
+
+}
+.main{
+    box-sizing: border-box;
+
+position: absolute;
+width: 1000px;
+height: 700px;
+left: 62px;
+top: 450px;
+
+border: 2px solid #000000;
+}
+.m1{
+    position: relative;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 50;
+font-size: 50px;
+line-height: 50px;
+
+color: black;
+
+}
+.m2{
+position: relative;
+}
