@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!-- saved from url=(0033)http://127.0.0.1:5500/Crypto.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./crypyo_files/Crypto.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+    <table class="table table-striped table-dark">
+        <thead class="table-dark">
+          
+        </thead>
+        <tbody id="table_body">    
+        
+        <tr><td style="height:70px"><img src="./crypyo_files/bitcoin.png" style="width:25px">  Bitcoin</td> <td>btc</td> <td>$17178.2</td> <td>$14762830739</td> <td style="color:#00FF00">35.54%</td> <td>MKT Cap : $330308788086</td></tr><tr><td style="height:70px"><img src="./crypyo_files/ethereum.png" style="width:25px">  Ethereum</td> <td>eth</td> <td>$1271.59</td> <td>$3398490342</td> <td style="color:#00FF00">2.77%</td> <td>MKT Cap : $153280178894</td></tr><tr><td style="height:70px"><img src="./crypyo_files/Tether.png" style="width:25px">  Tether</td> <td>usdt</td> <td>$1</td> <td>$17706414425</td> <td style="color:#00FF00">0.00042962%</td> <td>MKT Cap : $65749450886</td></tr><tr><td style="height:70px"><img src="./crypyo_files/bnb-icon2_2x.png" style="width:25px">  BNB</td> <td>bnb</td> <td>$288.05</td> <td>$552632441</td> <td style="color:#00FF00">0.261678%</td> <td>MKT Cap : $47049504564</td></tr><tr><td style="height:70px"><img src="./crypyo_files/USD_Coin_icon.png" style="width:25px">  USD Coin</td> <td>usdc</td> <td>$0.999329</td> <td>$1159429383</td> <td style="color:" #fff="">-0.000021299022959442%</td> <td>MKT Cap : $42727650030</td></tr><tr><td style="height:70px"><img src="./crypyo_files/BUSD.png" style="width:25px">  Binance USD</td> <td>busd</td> <td>$1</td> <td>$4292940294</td> <td style="color:#00FF00">0.00023769%</td> <td>MKT Cap : $22108986989</td></tr><tr><td style="height:70px"><img src="./crypyo_files/xrp-symbol-white-128.png" style="width:25px">  XRP</td> <td>xrp</td> <td>$0.388457</td> <td>$383608961</td> <td style="color:#00FF00">0.000399%</td> <td>MKT Cap : $19586855795</td></tr><tr><td style="height:70px"><img src="./crypyo_files/dogecoin.png" style="width:25px">  Dogecoin</td> <td>doge</td> <td>$0.096923</td> <td>$329292434</td> <td style="color:#00FF00">0.00027265%</td> <td>MKT Cap : $13299925900</td></tr><tr><td style="height:70px"><img src="./crypyo_files/cardano.png" style="width:25px">  Cardano</td> <td>ada</td> <td>$0.312975</td> <td>$106857968</td> <td style="color:#00FF00">0.001797%</td> <td>MKT Cap : $10974258438</td></tr><tr><td style="height:70px"><img src="./crypyo_files/matic-token-icon.png" style="width:25px">  Polygon</td> <td>matic</td> <td>$0.910958</td> <td>$208904251</td> <td style="color:" #fff="">-0.005648140505172705%</td> <td>MKT Cap : $8161700904</td></tr></tbody>
+      </table>
+    </div>
+    <script src="./crypyo_files/Crypto.js.download"></script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>
